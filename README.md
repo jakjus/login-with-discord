@@ -1,7 +1,7 @@
 # Login with Discord
 Implementation of Discord OAuth2 API. Consists of HTML/Vanilla.js frontend and Express.js backend. Allows to login through Discord API
 
-**Complementary repository to Medium article: <link>**
+**Complementary repository to Medium article: https://levelup.gitconnected.com/create-login-with-discord-in-express-js-in-10-minutes-6eaeab4ba174**
 
 ## Data Flow
 ![dataflow](./images/dataflow.png)
@@ -23,4 +23,4 @@ node app.js
 5. Visit http://localhost:3000
 
 ## Details
-More details in the Medium article: <link>
+More details in the Medium article: https://levelup.gitconnected.com/create-login-with-discord-in-express-js-in-10-minutes-6eaeab4ba174
