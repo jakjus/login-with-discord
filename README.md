@@ -1,5 +1,5 @@
 # Login with Discord
-Implementation of Discord OAuth2 API. Consists of HTML/Vanilla.js frontend and Express.js backend. Allows to login through Discord API
+Implementation of Discord OAuth2 API. Consists of HTML/Vanilla.js frontend and Express.js backend. Allows to login using Discord account.
 
 **Complementary repository to Medium article: https://levelup.gitconnected.com/create-login-with-discord-in-express-js-in-10-minutes-6eaeab4ba174**
 
