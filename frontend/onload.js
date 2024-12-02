@@ -1,5 +1,5 @@
 const getToken = async (code) => {
-  const result = await fetch('http://localhost:3000/getToken', {
+  const result = await fetch('/getToken', {
     method: 'POST',
     body: JSON.stringify({ code }),
     headers: {
@@ -14,7 +14,7 @@ const getToken = async (code) => {
 }
 
 const getMe = async (tokenType, accessToken) => {
-  const result = await fetch('http://localhost:3000/p/getMe', {
+  const result = await fetch('/p/getMe', {
     headers: {
       authorization: `${tokenType} ${accessToken}`,
     },

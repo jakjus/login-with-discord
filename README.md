@@ -11,7 +11,7 @@ Implementation of Discord OAuth2 API. Consists of HTML/Vanilla.js frontend and E
 - npm/yarn
 
 ## Usage
-1. Create Discord OAuth2 Application with redirect in Discord Developer Portal
+1. Create Discord OAuth2 Application with redirect to `http://localhost:3000` and `identify` scope in Discord Developer Portal
 2. Fill `backend/.env` based on `backend/.env.example`
 3. Fill `frontend/index.html` with generated OAuth URL in "Discord Login" button href (line 14)
 4. Install and run backend
